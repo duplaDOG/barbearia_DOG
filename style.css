@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+
+.principal{
+
+     padding: 30px;
+    background-color: #e9c4ff
+}
+.titulo-principal{
+    padding-left: 20px;
+    padding: 10px;
+
+}
+h1{
+
+    text-align: left;
+}
+h2,h3{
+   padding-top: 30px;
+   padding-bottom: 10px;
+text-align: center;
+}
+p {
+    
+    text-align: center;
+}
+
+.boi {
+
+    font-size: 20px;
+}
+ em   strong{
+
+        color: #8127e7;;
+}
+
+.bosta{
+    width: 100%;
+}
+
+.nerdola{
+
+    text-align: center;
+}
+
+.beneficios{
+    
+    background-color: #bab8fc;
+}
+
+.listabeneficios{
+
+   display: inline-block;
+    
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    
+
+}
+
+.itens{
+    font-style: italic;
+}
+
+.imagem{
+
+    width: 50%;
+}
