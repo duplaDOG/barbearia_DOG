@@ -5,7 +5,8 @@
 .principal {
 
     padding: 30px;
-    background-color: #e9c4ff
+    background-color: #e9c4ff;
+   
 }
 
 .titulo-principal {
@@ -18,6 +19,7 @@ h1 {
 
     text-align: left;
 }
+
 
 h2,
 h3 {
@@ -35,11 +37,11 @@ h3 {
 }
 
 p {
-
+    margin-bottom: 35px;
     text-align: center;
 }
 
-.boi {
+.boi { 
 
     font-size: 20px;
 }
@@ -60,14 +62,14 @@ em strong {
 }
 
 .beneficios {
-
+    padding-bottom: 70px;
     background-color: #bab8fc;
 }
 
 .listabeneficios {
 
     display: inline-block;
-
+    
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
@@ -76,6 +78,7 @@ em strong {
 }
 
 .itens {
+    margin-bottom: 10px;
     font-style: italic;
 }
 

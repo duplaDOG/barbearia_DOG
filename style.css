@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header {
+    padding: 20px 0px;
+    background-color: rgb(207, 207, 207);
+
+}
+
+.menu {
+    
+    width: 940px;
+    position: relative;
+    margin: auto;
+   
+}
+nav{
+    position: absolute;
+    right: 0px;
+    top:50%;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+ul {
+    list-style-type: none;
+   
+
+}
+
+li>a {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+main{
+    width: 750px;
+    margin: 0 auto;
+}
+form{
+    
+   
+    margin: auto;
+    margin: 40px 0
+}
+label{
+    display: block;
+    font-size:26px ;
+    width: 750px;
+    margin-bottom: 10px;
+}
+input{
+    width: 750px;
+    display: block;
+    margin-bottom: 7px;
+    padding: 3px;
+    height: 30px;
+    border-radius: 2px;
+}
+.send{
+    display: block;
+    border: 1px solid white;
+}
+
+#butao{
+   display: block;
+    color: white;
+    font-size:20px ;
+    background-color: black;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 28px;
+    width: 400px;
+}
+
+.produtos{
+    width: 950px;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.produtos h2{
+    font-size: 30px;
+}
+.produtos p{
+    font-size: 18px;
+}
+.produtos li{
+    display: inline-block;
+    border: 2px solid black;
+    width: 30.05%;
+    vertical-align: top;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    margin: 0 1.5%;
+    transition: all 0.2s linear;
+   
+}
+.produtos li:active{
+    border-color: green;
+}
+li:hover{
+    transform: scale(1.05);
+    border-color: #c78c19;
+}
+.preco strong{
+    font-size: 22px;
+    
+}
+.preco{
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+    height: 300px;
+    background-color: black;
+   
+}
+
