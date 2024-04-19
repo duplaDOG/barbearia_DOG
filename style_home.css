@@ -2,6 +2,9 @@
     margin: 0;
 }
 
+body{
+    background-image: linear-gradient(to bottom,white 40%,black);
+}
 header {
     padding: 20px 0px;
     background-color: rgb(207, 207, 207);
@@ -26,11 +29,7 @@ nav li{
     
 }
 
-ul {
-    list-style-type: none;
-   
 
-}
 
 li>a {
     color: black;
@@ -50,7 +49,7 @@ a:hover {
 .principal {
 
     padding: 30px;
-    background-color: #e9c4ff;
+    border: 3px solid black;
    
 }
 
@@ -108,7 +107,7 @@ em strong {
 
 .beneficios {
     padding-bottom: 70px;
-    background-color: #bab8fc;
+  ;
 }
 
 .listabeneficios {

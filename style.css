@@ -75,6 +75,10 @@ input{
     height: 30px;
     border-radius: 2px;
 }
+input:focus{
+    border-color: orange;
+    outline: none;
+}
 .send{
     display: block;
     border: 1px solid white;
@@ -120,9 +124,7 @@ input{
     transition: all 0.2s linear;
    
 }
-.produtos li:active{
-    border-color: green;
-}
+
 li:hover{
     transform: scale(1.05);
     border-color: #c78c19;
