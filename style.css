@@ -48,9 +48,11 @@ a:hover {
     color: #c78c19;
     text-decoration: underline;
 }
-
-main{
+.main2{
     width: 750px;
+}
+main{
+    width: 1050px;
     margin: 0 auto;
 }
 form{
@@ -94,7 +96,7 @@ input{
 }
 
 .produtos{
-    width: 950px;
+    width: 1050px;
     margin: auto;
     padding: 60px 0;
 }
@@ -108,7 +110,7 @@ input{
 .produtos li{
     display: inline-block;
     border: 2px solid black;
-    width: 30.05%;
+    width: 29%;
     vertical-align: top;
     border-radius: 5px;
     text-align: center;
