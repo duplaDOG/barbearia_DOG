@@ -79,6 +79,40 @@ input:focus{
     border-color: orange;
     outline: none;
 }
+textarea{
+    width: 750px;
+    padding: 5px;
+   
+}
+section div{
+    display: block;
+}
+.checkbox{
+    font-size: 7px;
+    margin:20px 0 ;
+}
+#check{
+    margin-right: 5px;
+}
+.labels{
+    vertical-align: top;
+   display: inline;
+}
+.radio{
+   display: inline;
+   width: 15px;
+   margin: 0;
+   text-align: left;
+   padding: 0;
+}
+.time{
+    margin-top: 15px ;
+}
+.time select{
+    margin-top: 5px;
+    font-size: 18px;
+    
+}
 .send{
     display: block;
     border: 1px solid white;
