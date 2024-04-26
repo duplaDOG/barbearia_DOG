@@ -67,7 +67,7 @@ label{
     width: 750px;
     margin-bottom: 10px;
 }
-input{
+.input-padrao{
     width: 750px;
     display: block;
     margin-bottom: 7px;
@@ -82,36 +82,39 @@ input:focus{
 textarea{
     width: 750px;
     padding: 5px;
-   
 }
-section div{
-    display: block;
+
+section input{
+    width: 25px;
+    display: inline-block;
+    
 }
 .checkbox{
-    font-size: 7px;
-    margin:20px 0 ;
+    margin-top: 20px;
 }
-#check{
-    margin-right: 5px;
+section label{
+    font-size: 25px;
 }
-.labels{
-    vertical-align: top;
-   display: inline;
+section label p{
+    font-size: 25px;
+    display: inline;
 }
-.radio{
-   display: inline;
-   width: 15px;
-   margin: 0;
-   text-align: left;
-   padding: 0;
+section h2{
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
-.time{
-    margin-top: 15px ;
+section  select{
+    width: 100px;
+    font-size: 15px;
 }
-.time select{
-    margin-top: 5px;
-    font-size: 18px;
-    
+#teste2{
+    color: black;
+}
+
+.teste{
+    color: rgb(248, 182, 61);
 }
 .send{
     display: block;
@@ -123,15 +126,15 @@ section div{
     color: white;
     font-size:20px ;
     background-color: black;
+  
    
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: auto;
-    padding: 10px;
-    padding-bottom: 28px;
+    padding: 18px;
+    padding-bottom: 18px;
     width: 400px;
 }
+
+
 
 .produtos{
     width: 990px;
